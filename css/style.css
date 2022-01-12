@@ -6,10 +6,9 @@
 
 body {
     margin: 0;
-    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: 'Be Vietnam Pro', sans-serif;
     background: white;
     overflow-x: hidden;
-
 }
 
 .navigation {
@@ -36,12 +35,15 @@ nav a {
     color: #d6d6d6;
     text-decoration: none;
     margin: 100px;
+    transition: all .2s ease-in-out; 
 
 }
 
 nav a:hover {
     color: #ffffff;
     cursor: pointer;
+    transform: scale(1.1); 
+
 }
 
 .wrapper {
@@ -66,23 +68,24 @@ nav a:hover {
 
 h1 {
     grid-area: he;
-    background: #ffad60 ;
+    background:#557195 ;
     height: 300px;
     text-align: center;
     font-size: 70px;
-    line-height: 340px;
+    line-height: 360px;
     font-weight: 600;
     font-style: normal;
-    color: #004f72;
-    border-bottom: solid #004f72 10px;
+    color: #7395ae;
+    border-bottom: solid #7395ae 10px;
 }
+
 
 .bild1 {
     grid-area: s1;
     background: #f5f5f7;
     height: 700px;
     text-align: center;
-    line-height: 1180px;
+    line-height: 1150px;
 }
 
 .meny1 {
@@ -115,28 +118,47 @@ h1 {
 
 footer {
     grid-area: fo;
-    background: #96ceb4;
+    background: #557a95;
     height: 470px;
-    color: #ffeead;
-    border-top: solid #ffeead 10px;
+    color: #7395ae;
+    border-top: solid #7395ae 5px;
 }
 
 ul{
     list-style: none;
     margin-top: 40px;
-    color: #d9534f;
+    color: #5d4c61;
     font-weight: 400;
 }
 
-img {
-    border: solid 5px;
-    border-color: black;
+.burger {
+    border: solid 4px;
+    border-color: #5d5c61;
     width: 80%;
-    border-radius: 50px;
+    border-radius: 20px;
 }
 
-#li_meny {
+.li_meny {
     font-weight: bold;
-    text-decoration: underline;
+    transition: all .2s ease-in-out; 
 }
+
+footer {
+    text-align: center;
+    padding: 40px;
+
+}
+
+#info {
+    line-height: 60px;
+}
+
+.li_meny:hover{
+    transform: scale(1.1); 
+}
+
+
+
+
+
 
