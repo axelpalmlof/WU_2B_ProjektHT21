@@ -76,7 +76,7 @@ h1 {
     font-weight: 600;
     font-style: normal;
     color: #7395ae;
-    border-bottom: solid #7395ae 10px;
+    border-bottom: solid #7395ae 15px;
 }
 
 
@@ -121,7 +121,7 @@ footer {
     background: #557a95;
     height: 470px;
     color: #7395ae;
-    border-top: solid #7395ae 5px;
+    border-top: solid #7395ae 15px;
 }
 
 ul{
@@ -140,7 +140,8 @@ ul{
 
 .li_meny {
     font-weight: bold;
-    transition: all .2s ease-in-out; 
+    transition: all .2s ease-in-out;
+    font-size: 50px;
 }
 
 footer {
@@ -156,6 +157,106 @@ footer {
 .li_meny:hover{
     transform: scale(1.1); 
 }
+
+#om_oss_bild1 {
+    grid-area: s2;
+    height: 700px;
+    background: #f5f5f7;
+    text-align: center;
+    line-height: 1100px;
+}
+
+#om_oss_text1 {
+    grid-area: s1;
+    font-size: 30px;
+    text-align: center;
+    background: #fbfbfd;
+    line-height: 50px;
+    padding: 40px;
+}
+
+#om_oss_bild2 {
+    grid-area: s3;
+    height: 700px;
+    background: #f5f5f7;
+    text-align: center;
+    line-height: 1250px;
+}
+
+#om_oss_text2 {
+    grid-area: s4;
+    font-size: 30px;
+    text-align: center;
+    background: #fbfbfd;
+    line-height: 50px;
+    padding: 40px;
+}
+
+#footer_om_oss {
+    height: 535px;
+    padding: 80px;
+}
+
+p {
+    color: #5d4c61;
+}
+
+.titel_om_oss {
+    transition: all .2s ease-in-out; 
+    margin-top: 30px;
+    color: #5d4c61;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.titel_om_oss:hover {
+    transform: scale(1.1); 
+
+}
+
+#titel_ta_dig_hit {
+    transition: all .2s ease-in-out; 
+    margin-top: 85px;
+    color: #5d4c61;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#titel_ta_dig_hit:hover {
+    transform: scale(1.1);
+}
+
+#location {
+    width: 90%;
+
+}
+
+#location_align {
+    line-height: 1160px;
+}
+
+.location_text {
+    grid-area: s2;
+    height: 700px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    background: #fbfbfd;
+    padding: 40px;
+    
+}
+
+#wrapper_edit {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+
+    grid-template-areas: 
+    "he he"
+    "s1 s2"
+    "s1 s2"
+    "fo fo";
+}
+
 
 
 
