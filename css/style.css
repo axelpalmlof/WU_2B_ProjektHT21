@@ -257,6 +257,15 @@ p {
     "fo fo";
 }
 
+#logo {
+    transition: all .2s ease-in-out; 
+}
+
+#logo:hover {
+    transform: scale(1.1);
+    
+}
+
 
 
 
